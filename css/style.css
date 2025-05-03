@@ -13,8 +13,6 @@ body{
     min-height: 100vh;
     display: flex;
     flex-flow: column;
-    flex-flow: column;
-    justify-content: center;
 }
 .header{
     padding-inline: 2.5rem;
@@ -75,11 +73,13 @@ img{
 
 @media screen and (min-width: 1024px) {
     body{
-        padding-inline: 5rem;
+        background-image: url("../images/bg-desktop.svg");
+        padding-inline: 4rem;
     }
     .header__logo{
         max-width: 200px;
         max-height: 55px;
+        margin-block: 3.5rem 6.25rem;
     }
     .main{
         flex-flow: row;
@@ -100,8 +100,8 @@ img{
         margin-block-start: 4rem;
     }
     .main__p{
-        font-size: 1rem;
-        font-weight: 300;
+        font-size: 1.05rem;
+        font-weight: 400;
     }
     .main__button{
         max-width: 200px;
