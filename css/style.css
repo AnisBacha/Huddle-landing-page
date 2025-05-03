@@ -71,10 +71,10 @@ img{
     max-width: 515px;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
     body{
         background-image: url("../images/bg-desktop.svg");
-        padding-inline: 4rem;
+        padding-inline: 3rem;
     }
     .header__logo{
         max-width: 200px;
@@ -97,10 +97,10 @@ img{
     }
     .main__h1{
         font-size: 2.5rem;
-        margin-block-start: 4rem;
+        margin-block-start: 3rem;
     }
     .main__p{
-        font-size: 1.05rem;
+        font-size: 1.125rem;
         font-weight: 400;
     }
     .main__button{
